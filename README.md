@@ -22,3 +22,7 @@
 In the initial set of flowers, we observe a few stunning shades of purple amidst predominantly white blossoms. However, in the subsequent image to the right, after undergoing recoloring, all the flowers have transformed to purple. For this image processing task, we employed Java's `BufferedImage` to read the image and execute the recoloring process both sequentially—using a [single thread](https://github.com/mohamedsugal/Java-Concurrency-and-Multithreading/blob/main/optimizing-for-latency-example/src/Main.java#L71) and in parallel, utilizing [multiple threads](https://github.com/mohamedsugal/Java-Concurrency-and-Multithreading/blob/main/optimizing-for-latency-example/src/Main.java#L41). The comparison revealed a significant performance enhancement with the multi-threaded approach, which efficiently partitioned the image processing workload across the designated number of threads. Below, you will find a comprehensive performance comparison detailing these observations
 
 <img src="https://github.com/mohamedsugal/Java-Concurrency-and-Multithreading/assets/32971892/1df38b5a-a4e7-4498-a69f-f4bfd717e986" width="850">
+
+Code examples for the online course [Java Multithreading, Concurrency & Performance Optimization](https://www.udemy.com/java-multithreading-concurrency-performance-optimization)
+
+Author : Michael Pogrebinsky
